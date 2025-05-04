@@ -1,2 +1,90 @@
 # Data-Analysis-Projects
 This repository contains my data analysis projects where I have performed Data analysis tasks such as Data preprocessing, Data Cleaning, and Data Visualization.
+
+Executive Summary
+This report presents an analysis of electricity generation data for upcoming projects, focusing on three key attributes: Generation Type, Maximum Capacity (Max MW), and Connection Voltage. The objective is to understand the distribution of generation technologies, assess capacity trends across different types, and evaluate the voltage levels associated with these projects. The insights presented here aim to support the Planning and Connections team at Transpower in their strategic decision-making.
+Data Overview
+Generation Type identifies the technology used in each project (e.g., solar, wind, hydro).
+
+
+Max MW represents the maximum generation capacity of a project, indicating its expected contribution to the national grid.
+
+
+Connection Voltage shows the voltage level at which each project connects to the grid, informing planning for safe and efficient integration.
+
+
+The dataset contains 132 rows and 85 distinct project records. Data quality checks revealed 7 missing or invalid entries in the Connection Voltage column, while the Max MW column had no missing values.
+Data Preparation Steps Included:
+Merging relevant columns for consistency
+
+
+Addressing missing values where possible
+
+
+Removing blank or irrelevant columns to streamline the analysis
+
+
+
+
+Generation Type Distribution
+The dataset features a diverse range of generation types, including solar, wind, hydro, geothermal, fossil fuels, and battery storage (BESS). This reflects a growing diversity in New Zealand’s future energy mix.
+Solar is the most common generation type, accounting for 34.5% of projects.
+
+
+Solar + BESS makes up 31%
+
+
+Wind contributes 21.8%
+
+
+This trend signals a strong shift toward renewable and storable energy, in line with New Zealand’s national climate goals to decarbonise the economy and improve grid resilience.
+
+
+Total Installed Capacity (Max MW)
+Solar and Solar + BESS projects contribute the most to total planned capacity.
+
+
+A variety of connection voltage levels suggest a mix of project sizes and purposes: 
+11-66 kV - Low Voltage/low capacity projects. Could be used to generate power for rural areas. 
+110 kV - Medium Voltage. Medium Capacity projects. 
+220 kV - High Voltage. Projects that will generate a large amount of power, most likely      will be projects used for regional areas.
+Although high-voltage projects are more common, a higher voltage does not always equate to a higher Max MW. The data shows several lower-capacity projects even at higher voltages which highlights the importance of looking at data in an overall sense to understand what is going on. 
+
+
+Connection Voltage
+Minimum Connection Voltage: 11.0 kV
+
+
+Maximum Connection Voltage: 220.0 kV
+
+
+Average Connection Voltage: 144.27 kV
+
+
+There is a positive correlation between connection voltage and Max MW, with higher voltages generally allowing for greater generation capacity. However, the presence of low-capacity projects at high voltage indicates that capacity alone does not determine voltage level.
+Key Insights & Trends
+There is a clear trend toward renewable energy, particularly in solar and wind, moving away from traditional sources like hydro, which may be constrained due to site availability.
+
+
+The rise of solar + battery storage reflects the need for flexibility and reliability in energy supply.
+
+
+Many high-voltage projects still exhibit lower capacity, highlighting that high voltage does not necessarily give insight to power output. 
+
+
+Overall, the data reflects New Zealand’s strategic push toward clean energy and sustainable generation.
+
+
+
+Recommendations
+Infrastructure Readiness: Review whether current infrastructure supports high-voltage connections for large-scale projects.
+
+
+Investment Priorities: Consider focusing investment in technologies that combine renewable generation with storage, particularly solar + BESS.
+
+
+Strategic Planning: Factor in the shift away from hydro and fossil fuels in upcoming projects when developing long-term plans.
+
+
+Further Analysis: Investigate what else will affect the increase in these technologies. For example, possible sites for wind and which iwis will need to be spoken to, or if its private property, investigating the funding needed. 
+
