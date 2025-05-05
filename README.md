@@ -12,6 +12,6 @@
  ### The full analysis, including visualizations and detailed insights, can be found here: https://docs.google.com/document/d/1z0NxA09EyHmxdUHQuuQJ1AuOcbz8Appx2B8RHwKY0As/edit?usp=sharing
 
 ![Generation Type Breakdown](images/generation_type_pie_chart.png)
-# *Figure 1: Distribution of Transpower's 2025 generation projects by type.*  
+*Figure 1: Distribution of Transpower's 2025 generation projects by type.*  
 
 # [Project 2: Births and Deaths]
