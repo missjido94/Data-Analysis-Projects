@@ -10,3 +10,5 @@
  ### Analysis: Python (Pandas, Matplotlib/Seaborn) or Excel.
  ### Visualizations: [Charts/graphs created, e.g., pie charts of generation types, maps of project locations].
  ### The full analysis, including visualizations and detailed insights, can be found here: https://docs.google.com/document/d/1z0NxA09EyHmxdUHQuuQJ1AuOcbz8Appx2B8RHwKY0As/edit?usp=sharing
+
+# [Project 2: Births and Deaths]
