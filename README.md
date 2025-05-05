@@ -11,7 +11,8 @@
  ### Visualizations: [Charts/graphs created, e.g., pie charts of generation types, maps of project locations].
  ### The full analysis, including visualizations and detailed insights, can be found here: https://docs.google.com/document/d/1z0NxA09EyHmxdUHQuuQJ1AuOcbz8Appx2B8RHwKY0As/edit?usp=sharing
 
- ![Percentage of Generation Types in 2025](images/generation_type_pie_chart.png)  
+ ![Percentage of Generation Types in 2025]
+ # (images/generation_type_pie_chart.png)  
 *Figure 1: Distribution of Transpower's 2025 generation projects by type.*  
 
 # [Project 2: Births and Deaths]
