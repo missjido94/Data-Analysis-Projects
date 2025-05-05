@@ -14,6 +14,9 @@
 ![Generation Type Breakdown](images/generation_type_pie_chart.png)
 *Figure 1: Distribution of Transpower's 2025 generation projects by generation type.*  
 
+![Generation Type Breakdown](images/max_mw_connection_voltage.png)
+*Figure 2: The relationship between connection voltage (kV) and maximum power output (MW) .*
+
  ### The full analysis, including visualizations and detailed insights, can be found here: https://docs.google.com/document/d/1z0NxA09EyHmxdUHQuuQJ1AuOcbz8Appx2B8RHwKY0As/edit?usp=sharing
 
 # [Project 2: Births and Deaths]
